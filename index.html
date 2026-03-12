@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Product Showcase</h1>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <div class="gallery">
+            <div class="card fade-in" style="animation-delay: 0.1s;">
+                <div class="card-image">
+                    <div class="image-placeholder image-1"></div>
+                </div>
+                <div class="card-content">
+                    <h2>Premium Watch</h2>
+                    <p class="price">$299</p>
+                    <p class="description">Elegant timepiece with precision engineering and timeless design.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card fade-in" style="animation-delay: 0.2s;">
+                <div class="card-image">
+                    <div class="image-placeholder image-2"></div>
+                </div>
+                <div class="card-content">
+                    <h2>Wireless Headphones</h2>
+                    <p class="price">$199</p>
+                    <p class="description">Crystal-clear audio with noise cancellation and 30-hour battery life.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card fade-in" style="animation-delay: 0.3s;">
+                <div class="card-image">
+                    <div class="image-placeholder image-3"></div>
+                </div>
+                <div class="card-content">
+                    <h2>Smart Camera</h2>
+                    <p class="price">$449</p>
+                    <p class="description">Professional-grade photography with AI-powered features and 4K video.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
